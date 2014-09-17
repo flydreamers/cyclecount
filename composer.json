@@ -1,0 +1,24 @@
+{
+    "name": "flydreamers/cyclecount",
+    "description": "",
+    "keywords": ["php", "cyclecount", "extension", "colors"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Thierer",
+            "email": "sebas@flydreamers.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyclecount\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
